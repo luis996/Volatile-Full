@@ -10,12 +10,12 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.control.ProgressIndicator?>
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.vortex.volatilex.VolatileUController" style="-fx-background-color: #141414; -fx-text-background-color: #ffffff; -fx-border-color: gray; -fx-border-width: 1;">
+      fx:controller="org.vortex.volatilex.VolatileFController" style="-fx-background-color: #141414; -fx-text-background-color: #ffffff; -fx-border-color: gray; -fx-border-width: 1;">
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
   </padding>
 
-  <ImageView fx:id="logoImage" fitWidth="250" preserveRatio="true" opacity="0">
+  <ImageView fx:id="logoImage" fitWidth="250" preserveRatio="true" visible="false">
     <Image url="@VOLATILE_NOBG.png"/>
   </ImageView>
 

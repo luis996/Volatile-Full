@@ -1,7 +1,7 @@
 package org.vortex.volatilex;
 
-public class VolatileULauncher {
+public class VolatileFLauncher {
     public static void main(String[] args) {
-        VolatileApplication.main(args);
+        VolatileFullApplication.main(args);
     }
 }
