@@ -1,4 +1,4 @@
-module org.vortex.volatilex {
+module org.vortex.volatilexfull {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -8,6 +8,6 @@ module org.vortex.volatilex {
     requires org.kordamp.ikonli.javafx;
     requires eu.hansolo.tilesfx;
 
-    opens org.vortex.volatilex to javafx.fxml;
-    exports org.vortex.volatilex;
+    opens org.vortex.volatilexfull to javafx.fxml;
+    exports org.vortex.volatilexfull;
 }

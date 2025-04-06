@@ -1,4 +1,4 @@
-package org.vortex.volatilex;
+package org.vortex.volatilexfull;
 
 import javafx.animation.*;
 import javafx.fxml.FXML;

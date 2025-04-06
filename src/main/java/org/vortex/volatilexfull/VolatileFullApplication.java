@@ -1,13 +1,10 @@
-package org.vortex.volatilex;
+package org.vortex.volatilexfull;
 
-import javafx.animation.*;
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import javafx.util.Duration;
 
 import java.io.IOException;
 
